@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: sora;
+    src: url(./fonts/Sora-Regular.ttf);
+}
+.testimonial_title{
+    font-family: sora;
+    text-align: center;
+}
+@font-face {
+    font-family: sora_2;
+    src: url(./fonts/Sora-ExtraBold.ttf);
+}
+.testimonial{
+    font-family: sora_2;
+}
+.testimonial_cards{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    padding: 40px 24px;
+}
+.testimonial-card{
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    font-family: sora;
+    font-weight: 400;
+    color: #404040;
+    line-height: 30px;
+    padding: 20px 35px;
+    box-shadow: 5px 5px 25px 7px #18274B1F;
+}
+.testimonial-card:nth-child(2){
+    background-color: black;
+    color: white;
+}
+.testimonial-card>h4:nth-child(2){
+    color: white;
+}
+.testimonial-card>p{
+    line-height: 25px;
+    width: 240px;
+}
+.img-quote{
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    width: 25px;
+}
+.testimonial-card>h4{
+    color: #71717A;
+}
